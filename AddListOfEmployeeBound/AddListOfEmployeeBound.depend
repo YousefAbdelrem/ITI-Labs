@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1730411562 source:c:\iti_problemsolving\addlistofemployeebound\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+

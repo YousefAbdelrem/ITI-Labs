@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1730118621 source:c:\magic_box\main.c
+	<stdio.h>
+	<stdlib.h>
+
