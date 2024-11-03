@@ -13,8 +13,7 @@ int main()
     ,{2,5},
     {3,6}};
     int arr3[3][2];
-/// start with the first array and multiply first row with column in the second array
-    /// 2 for loops outer loop loop on row for arr1 and second for loop for colums in arr2
+
     for(int i = 0; i < 3; i++) // columns
     {
         int sum = 0;
@@ -31,6 +30,7 @@ int main()
     }
 
     /// print 3
+        printf("Here is the matrix 3 * 3 x 3 * 2",arr3[i][j]);
         for(int i = 0; i < 3; i++ )
         {
             for(int j =0; j < 2;j++)
@@ -42,9 +42,3 @@ int main()
 
     return 0;
 }
-
-
-/// start with the first array and multiply first row with column in the second array
-    /// 2 for loops outer loop loop on row for arr1 and second for loop for colums in arr2
-    /// sum indexs and but them in one variate
-    /// add result to the new matrix 3x2

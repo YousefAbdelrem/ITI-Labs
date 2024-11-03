@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1730369104 source:c:\iti_problemsolving\highlightmenulab4\main.c
+1730640840 source:c:\iti_problemsolving\texteditor\main.c
 	<stdio.h>
 	<stdlib.h>
 	<windows.h>

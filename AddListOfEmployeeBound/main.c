@@ -74,7 +74,7 @@ void DisplayMenu()
             gotoxy(45,5 + i*2);
             if(cursor == i)
             {
-                textattr(9);
+                textattr(2);
 
             }
             else
@@ -171,7 +171,9 @@ void AddEmployee()
 
 
     }while(ind > 9);
-    printf("-------------------------------------------------------------");
+
+    PrintXYInt(0, 0 , "## Employee Number -->",counter + 1);
+    printf("\n-------------------------------------------------------------");
     PrintXY(10,2,"id: ");
     PrintXY(10,4,"Age: ");
     PrintXY(10,6,"commission: ");
@@ -209,6 +211,7 @@ void AddEmployee()
 void DisplayEmployee()
 {
     int constant = 0;
+    if(counter != 0){
     for(int i = 0; i < 10; i++)
     {
     if(e[i].id != -1)
@@ -217,6 +220,11 @@ void DisplayEmployee()
     constant +=1;
     }
     }
+    }else
+    {   textattr(3);
+        printf("#There is no data for employees yet to display ");
+    }
+
    waitForEsc();
 
 }
